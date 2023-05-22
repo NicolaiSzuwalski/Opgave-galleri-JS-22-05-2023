@@ -1,16 +1,14 @@
 
 
-/*delay på data hentning i ms  skal kun bruges hvis du laver Dataobject opgaven */
-const myLoadTime = 2000;
-
 /* kicks off app when the DOM is loaded */
-window.addEventListener("load", initApp);
+window.addEventListener("load", generateGrid);
 
 
 
 // globale variabler
 // let myData = null; //til data objekt opgaven
-let myData = []; // til array opgaven, byg dit array af billed urlér her.
+let myImages = []; // til array opgaven, byg dit array af billed urlér her.
+const myApp = document.getElementById('app');
 
 
 
@@ -18,10 +16,27 @@ let myData = []; // til array opgaven, byg dit array af billed urlér her.
 
 
 // her starter din app
-function initApp(){
+function generateGrid(){
 
 }
 
+
+function createCard(myUrl){
+
+}
+
+// Find url på det klikkede image, send url til build big
+function clickSmall(myEvent){
+
+}
+
+function buildBig(myUrl){
+
+}
+
+function clearApp(){
+
+}
 
 
 
