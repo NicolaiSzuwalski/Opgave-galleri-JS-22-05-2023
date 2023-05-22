@@ -6,22 +6,32 @@ font-family: "Oswald", sans-serif; */
   padding: 0px;
 }
 
+body{
+  background-color: #dddddd;
+  
+}
+
 h1 {
   font-family: "Oswald", sans-serif;
   font-size: 4rem;
   padding: 0px;
   margin: 0px;
+  text-transform: capitalize;
+  color: rgb(65, 146, 212);
 }
 
 h2 {
   font-family: "Oswald", sans-serif;
   font-size: 2em;
   text-transform: capitalize;
+  color: rgb(27, 127, 208);
 }
 
 p {
   font-family: "Merriweather", serif;
   font-size: 1.2em;
+  color: rgb(5, 121, 38);
+  text-transform: capitalize;
 }
 
 header {
